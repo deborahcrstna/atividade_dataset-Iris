@@ -1,22 +1,27 @@
 # Atividade Avaliativa II
 
+
+## Sobre o repositório
+
+### Este repositório é para fins acadêmicos.
 ## Questões
 
 ###
 1. Explique a distância de Manhattan. </P>
+*Resposta:* A Distância de Manhattan é uma forma de calcular a distância entre dois pontos em um plano bidimensional, como um gráfico. Imagine percorrer ruas de uma cidade em uma grade, como em Manhattan. Você só pode se mover ao longo das ruas (horizontalmente ou verticalmente), não em linha reta. A distância é a soma das diferenças nas coordenadas x e y. Em resumo, é como calcular a distância percorrida ao andar pelas ruas da cidade para chegar de um ponto a outro.
 2. Explique a distância euclidiana.</P>
-   Resposta:
+   *Resposta:* A Distância Euclidiana é uma forma de medir a distância entre dois pontos em um plano, como em um gráfico. A fórmula calcula esse comprimento direto. É calculado a distância "em linha reta" entre dois pontos em um mapa. Essa medida é útil em muitos campos para avaliar a semelhança ou diferença entre conjuntos de dados. Por fim, é  medido a distância entre dois pontos indo diretamente de um para o outro.
 3. Explique a distância de Hamming. </P>
-   Resposta:
+   *Resposta:* A Distância de Hamming é uma métrica que mede a diferença entre duas sequências de comprimentos iguais. Essa métrica conta o número de posições nas quais os símbolos correspondentes nas duas sequências são diferentes. Isso pode ser usado para comparar sequências, como palavras ou códigos, e descobrir quantos elementos precisam ser alterados para tornar uma sequência igual à outra. Essa métrica é especialmente útil em ciência da computação, codificação de dados e teoria da informação, onde é comumente usada para avaliar a diferença entre sequências binárias, como códigos de correção de erros ou representações genéticas.
 4. Explique o que é aprendizado não-supervisionado. </P>
-   Resposta:
+   *Resposta:* No aprendizado não supervisionado, algoritmos são treinados em dados não rotulados, sem categorias predefinidas. Ele visa descobrir padrões e estruturas nos dados por conta própria, sem orientação de rótulos. Duas abordagens comuns são o agrupamento (identificação de grupos sem rótulos) e a redução de dimensionalidade (simplificação da representação dos dados). Isso é útil quando não há categorias claras nos dados, sendo aplicado em tarefas como agrupamento automático e identificação de estruturas subjacentes.
 5. Explique o que é um cluster. </P>
-   Resposta:
+   *Resposta:* Um cluster é um grupo de objetos ou pontos de dados que compartilham características semelhantes. No contexto do aprendizado de máquina, especialmente em técnicas de agrupamento não supervisionado, o objetivo é dividir um conjunto de dados em clusters, onde os membros dentro de um cluster são mais semelhantes entre si do que com membros de outros clusters. É uma maneira de identificar grupos ou padrões naturais nos dados, facilitando a análise e a compreensão de conjuntos de informações complexos.
 6. Explique o funcionamento do algoritmo K-Means. </P>
-    Resposta:
+    *Resposta:* O algoritmo K-Means começa escolhendo aleatoriamente k pontos como centros iniciais dos clusters. Em seguida, atribui cada ponto de dados ao cluster cujo centro é o mais próximo. Os centros dos clusters são atualizados, recalculando a média dos pontos atribuídos a cada cluster. Este processo é repetido até que os centros dos clusters não mudem significativamente. O resultado final é um conjunto de k clusters, cada um com um centro representativo. O desafio é escolher um valor apropriado para k, e o algoritmo é eficiente, embora sensível à inicialização dos centros.
 7. Explique o que é aprendizado supervisionado. </P>
-    Resposta:
+    *Resposta:* O aprendizado supervisionado é uma abordagem de aprendizado de máquina onde um modelo é treinado usando um conjunto de dados rotulado, ou seja, um conjunto de dados que contém exemplos de entrada associados a rótulos ou saídas desejadas. O objetivo é que o modelo aprenda a mapear as entradas para as saídas correspondentes, permitindo assim que generalize e faça previsões ou classificações em novos dados não vistos. Em resumo, o aprendizado supervisionado envolve o treinamento de um modelo com exemplos conhecidos para que ele possa fazer previsões ou tomar decisões em dados desconhecidos.
 8. Explique o funcionamento do algoritmo KNN. </P>
-    Resposta:
+    *Resposta:* O algoritmo KNN (k-Nearest Neighbors) é um método de aprendizado supervisionado usado para classificação ou regressão. Ele funciona encontrando os k pontos de treinamento mais próximos a um novo ponto de dados e tomando decisões com base nas classes (para classificação) ou valores médios (para regressão) desses vizinhos. A proximidade entre pontos é medida por distância, geralmente a euclidiana. A escolha do valor de k é importante e afeta o desempenho do modelo. .
 9. Comente sobre uma área de aplicação da IA na indústria automobilística. </P>
-    Resposta:                                              
+    *Resposta:* Na indústria automobilística, a Inteligência Artificial (IA) é amplamente aplicada na condução autônoma. Isso envolve sistemas avançados de assistência ao motorista (ADAS), que utilizam IA para funções como controle de cruzeiro adaptativo e detecção de pontos cegos. A IA é essencial para a percepção e reconhecimento de imagens, permitindo que os veículos reconheçam objetos, pedestres e sinais de trânsito. Além disso, ela desempenha um papel crucial na tomada de decisões em tempo real, mapeamento preciso, localização, manutenção preditiva e muito mais, contribuindo para a transformação da segurança e eficiência na condução.                                             
