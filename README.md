@@ -3,7 +3,7 @@
 
 ## Sobre o repositório
 
-### Este repositório é para fins acadêmicos.
+### Este repositório é para fins acadêmicos. Questões e implementação da solução para a questão 10 que está como arquivo .py 
 ## Questões
 
 ###
